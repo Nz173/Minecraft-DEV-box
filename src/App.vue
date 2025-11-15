@@ -1,9 +1,12 @@
 <script setup>
-import TemplateGenerator from './components/TemplateGenerator.vue'
+import AppNavbar from './components/AppNavbar.vue'
 </script>
 
 <template>
-  <TemplateGenerator />
+  <div id="app">
+    <AppNavbar />
+    <router-view />
+  </div>
 </template>
 
 <style>
@@ -17,5 +20,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+#app {
+  min-height: 100vh;
 }
 </style>

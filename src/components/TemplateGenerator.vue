@@ -176,23 +176,24 @@ onMounted(() => {
 .template-generator {
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 2rem;
+  padding: 2rem 2rem 4rem;
 }
 
 .generator-header {
   text-align: center;
   color: white;
   margin-bottom: 3rem;
+  padding-top: 2rem;
 }
 
 .generator-header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   opacity: 0.9;
 }
 
